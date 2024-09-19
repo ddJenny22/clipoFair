@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import SetStatus from './VisitorTrackingDashboard';
-import VisitorStats from './VisitorStats';
-import { VisitorProvider } from './VisitorContext'; // Context Provider 추가
+import SetStatus from './visitor/VisitorTrackingDashboard';
+import VisitorStats from './visitor/VisitorStats';
+import { VisitorProvider } from './visitor/VisitorContext'; // Context Provider 추가
 
 function App() {
   return (

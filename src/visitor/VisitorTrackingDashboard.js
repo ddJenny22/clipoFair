@@ -47,8 +47,8 @@ const SetStatus = () => {
   };
 
   return (
-    <div className="max-w-md mx-auto mt-10 p-6 bg-white rounded-xl shadow-lg">
-      <h1 className="text-center text-xl font-bold mb-6">실시간 방문객</h1>
+    <div className="max-w-md mx-auto mt-10 p-6 bg-white rounded-xl">
+      <h1 className="text-center text-2xl font-bold mb-6">실시간 방문객</h1>
       <h2 className="text-center text-md mb-4">{currentTime}</h2>
 
       <div className="space-y-4">
